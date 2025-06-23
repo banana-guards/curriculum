@@ -9,10 +9,13 @@ interface ButtonTypes {
 
 export const Button = ({ text, color, backgroundColor, link }: ButtonTypes) => {
   return (
-    <button style={{ backgroundColor }} className="button">
-      <a href={link} target="_blank" style={{ color }} className="button__link">
-        {text}
-      </a>
-    </button>
+    <a
+      href={link}
+      target="_blank"
+      style={{ color, backgroundColor }}
+      className="button"
+    >
+      {text}
+    </a>
   );
 };
