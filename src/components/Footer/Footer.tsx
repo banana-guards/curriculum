@@ -3,7 +3,9 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <footer className="footer">
-      <h1 className="footer__title">Find me elsewhere on the web as well:</h1>
+      <h1 className="footer__title">
+        Encuéntrame también en otros lugares de la web:
+      </h1>
       <ul className="footer__list">
         <li>
           <a
