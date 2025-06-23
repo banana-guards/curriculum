@@ -1,13 +1,11 @@
 .button {
   display: flex;
   justify-content: center;
-  min-width: 3rem;
   width: min-content;
-  min-height: 1.5rem;
   align-items: center;
   border: none;
   margin-top: 20px;
-  padding: 0.6rem 1.4rem;
+  padding: 0.5rem 1.4rem;
   border-radius: 2.1rem;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
   font-size: 1.5rem;
