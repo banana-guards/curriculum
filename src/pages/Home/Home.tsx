@@ -14,7 +14,7 @@ export const Home = () => {
           </h1>
         </div>
         <div className="hero__image-container">
-          <img src={imageProfile} alt="" className="hero__image" />
+          <img src={imageProfile} alt="image profile" className="hero__image" />
         </div>
         <div className="hero__paragraph">
           <p className="hero-text">

@@ -9,6 +9,7 @@
 @font-face {
   font-family: "Alaska";
   src: local("alaska"), url("./fonts/alaska.ttf") format("truetype");
+  font-display: swap;
 }
 
 body {
