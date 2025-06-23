@@ -138,6 +138,15 @@
   color: #fff;
 }
 
+#stack li {
+  list-style: inside;
+  margin-bottom: 0.8rem;
+}
+
+#stack li::marker {
+  color: var(--orange);
+}
+
 .studies .home-section__title {
   color: var(--red-section);
 }
