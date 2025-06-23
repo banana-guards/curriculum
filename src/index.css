@@ -10,6 +10,10 @@
   --blue-400: #255b98;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
