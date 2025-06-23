@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0.6rem;
+  margin-bottom: 80px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav__anchor {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.nav__anchor:hover {
+  color: var(--black);
+}
+
+.nav__anchor--red {
+  color: var(--red);
+}
+
+.nav__anchor--blue {
+  color: var(--blue);
+}
+
+.nav__anchor--green {
+  color: var(--green);
+}
+
+.nav__anchor--purple {
+  color: var(--purple);
+}
