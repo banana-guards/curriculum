@@ -1,5 +1,5 @@
 import { Button } from "../../components/Button/Button";
-import imageProfile from "/image-profile.png";
+import imageProfile from "/image-profile.webp";
 
 import "./Home.css";
 
