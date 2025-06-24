@@ -30,7 +30,7 @@ export const Nav = () => {
             target="_blank"
             className="nav__anchor nav__anchor--red"
           >
-            Contacto
+            contacto
           </a>
         </li>
       </ul>
